@@ -1,0 +1,46 @@
+{% load static %}
+{% block content %}
+<!DOCTYPE html>
+<html>
+<body>
+<style>
+#healthform,#businessform,#lifeform{display:none;}
+</style>
+<script src="jquery.js"></script>
+<p>Modify the text in the input field, then click outside the field to fire the
+onchange event</p>
+Enter some text:<select name="txt" id="insurancetype">
+<option>-Select Insuranfce Type-</option>
+<option>home</option>
+<option>business</option>
+<option>car</option>
+</select>
+<div id="forms">
+<form id="homeform">
+<input type="text" placeholder="height"/>
+</form>
+<form id="businessform">
+</select>
+<div id="forms">
+<form  id="homeform">
+<input type="text" placeholder="height"/>
+</form>
+<form id="businessform">
+<input type="text" placeholder="business name">
+</form>
+<form id="carform">
+<input type="text" placeholder="age">
+</form>
+</div>
+<script>
+$(document).ready(function(){
+     $("#insurancetype").change(function(){
+	 var type=$(this).val();
+	 $("#forms form").hide();
+	 $("#"+type+"form").show();
+	 }};
+}};
+</script>
+</body>
+</html>
+{% endblock %}

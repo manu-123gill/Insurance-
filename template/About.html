@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+<div class="row " >
+<div class="col-md-6 m-3 mt-5 p-5">
+<h1 style="margin-top:40px"; class="title">About us</h1>
+<h5>we provide the best consulting services for businesses all over the world and in
+every industy. whether you are a new startup or a large company looking 
+to broaden your horizons, our team of experts 
+will help you make the right decision for you.</h5><br><h5>
+From helping you refine your supply chain management, enhance human resurce strateges,
+ guiding you to choose the right corporate social responsibilities and managing your
+ public relation, we provide all services to ensure the 
+success of your business.</h5>
+
+<input type="submit"class="btn btn-primary btn-lg" value="Read more">
+<div class="col-md-5 p-5">
+<img src="{% static 'image/b2.jpg' %}"height="500px" width="100%" />
+</div></div>
+</div>
+{% endblock %}

@@ -1,0 +1,116 @@
+{% load static %}
+<html>
+<head>
+<title>
+A1 insure
+</title>
+<link href="{% static 'tech1.css' %}" type= "text/css" rel="stylesheet"/>
+<link href="{% static 'bootstrap/css/bootstrap.min.css' %}" type="text/css" rel="stylesheet"/>
+<link href="{% static 'bootstrap/css/bootstrap-grid.min.css' %}" type="text/css" rel="stylesheet"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://www.markuptag.com/bootstrap/5/css/bootstrap.min.css">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- jQuery Library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="{%static 'jquery.js'%}"></script>
+<script src="{%static 'bootstrap/js/bootstrap.min.js'%}"></script>
+<script src="{% static 'bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+    <!-- Counts JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+</head>
+<body>
+<div class="container-fluid">
+
+<div class="mycontainer">
+
+<div class="row bg-dark fixed-top p-2" id="heading">
+<div class="col-md-3 ">
+<h3 id="licstyle"><i class="fa fa-umbrella" ></i>A1 Insure</h3>
+</div>
+<div class="col-md-9">
+<nav>
+<ul class="nav" >
+<li><a class="nav-link" href="/tech1">Home</a></li>
+<li><a class="nav-link" href="/About/">About us</a></li>
+<li><a class="nav-link" href="/service/">Service</a></li> 
+
+<li><a class="nav-link" href="/ourteam/">Our Team</a></li>
+
+<li><a class="nav-link" href="/faq/">FAQ</a></li>
+<li><a class="nav-link" href="/techblog/">Blog</a></li>
+<li><a class="nav-link" href="/apply/">Contact</a></li>
+
+{% if user.is_authenticated %}
+
+<li class="login"><a href="/logout1/" class="nav-link text-danger">H1,{{ user.username }} |
+LOGOUT</a></li>
+{% else %}
+<li><a class="nav-link" href="/login1/">login</a></li>
+<li><a class="nav-link" href="/log/">signup</a></li>
+<li><a class="nav-link" href="/reg/">Registration</a></li>
+{% endif %}
+</ul>
+</nav>
+</div></div>
+</div>
+{% block content %}
+{% endblock %}
+
+<div class="row p-2 bg-dark" id="g5">
+<div class="col-md-3 text-light p-1"><br>
+<h1 class="text-center">Contact</h1>
+<p class="test-center">8/35 Tower street,new york,USA+1912 777 8899example@life.com</p></div>
+
+<div class="col-md-3 p-4 navigation">
+
+<nav>
+<h1 class="text-center">Help center</h1>
+<a class="nav-link" href="#">FAQ</a>
+<a class="nav-link" href="#">Term and condition</a>
+<a class="nav-link" href="#">privacy</a>
+<a class="nav-link" href="#">Track order</a></nav></div>
+<div class="col-md-3" id="contact">
+<ul>
+<div class="col-md-3 p-4 navigation">
+<h1 class="test-center">Quick links</h1>
+<li><a class="nav-link" href="#">About</a></li>
+<li><a class="nav-link" href="#">contact</a></li>
+<li><a class="nav-link" href="#">Appointment</a></li>
+<li><a class="nav-link" href="#">Blog</a></li></ul></div>
+<div class="col-md-3 p-3" id="gt">
+<h5> We are on social network</h5>
+<p>stay up to date with us !</p>
+<i class="fa fa-facebook"></i>
+<i class="fa fa-twitter"></i>
+<i class="fa fa-dribble"></i>
+<i class="fa fa-instagram"></i>
+<i class="fa fa-linked-in"></i>
+</div>
+</div>
+
+    
+    <script type="text/javascript">
+        // jQuery counterUp
+        $('[data-toggle="counterUp"]').counterUp({
+            delay: 15,
+            time: 1500
+        });
+</script>
+<script>
+  AOS.init();
+</script>
+	
+</body>
+<script>
+$(document).ready(function(){
+	$("#insurancetype").change(function(){
+	var type=$(this).val();
+	$("#forms form").hide();
+	$("#"+type+"form").show();
+	});
+});
+</script>
+</html>
+

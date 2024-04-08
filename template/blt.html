@@ -1,0 +1,62 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}	
+<div class="img" id="v1">
+<h1 class="model text-danger text-center"><b>Register</b></h1></div>
+<div class="row offset-3">
+<div class= "col-md-9" id="l1">
+
+<div class="form-group">
+<h1> Fill Our Detail</h1></div><br>
+
+<div class="form-control">
+<form action="{% url 'register' %}" method='POST'>
+{% csrf_token %}
+<div class="row">
+<div class="col-md-6">
+<input type="text" class="form-control" placeholder="First  name*" id=" name" name="fname"/> <br></div>
+<div class="col-md-6">
+
+<input type="text" class="form-control" placeholder="last  name*" id=" name" name="lname"/></div></div>
+
+
+<div class="row">
+<div class="col-md-6">
+<input type="text" class="form-control" placeholder="City*" id=" name" name="city"/>
+</div>
+
+
+<div class="col-md-6">
+<input type="text" class="form-control" placeholder="pin-code*" id=" name" name="pin"/></div></div><br>
+<div class="row">
+<div class="col-md-6">
+<input type="text" class="form-control" placeholder="phon-no*" id=" name" name="phon-no"/> <br></div>
+<div class="col-md-6">
+<input type="text" class="form-control" placeholder="state*" id=" name" name="state"></p>
+</div><div>
+
+<div class="row">
+<div class="col-md-8">
+<input type="text" class="form-control" placeholder="Adress*" id=" name" name="address"/> <br></div></div>
+<div class="row">
+<div class="col-md-8">
+<input type="text" class="form-control" placeholder="Adhar-no*" id=" name" name="adhar_no"/></div></div></p>
+<div class="row">
+<div class="col-md-8">
+<input type="text" class="form-control" placeholder="City*" id=" name" name="city"/> <br></div>
+</div>
+<div class="row"> 
+<div class="col-md-8">
+<input type="text" class="form-control" placeholder="email*" id=" name" name="email"></p>
+</div></div> 
+<label id="p2">Gender</label>
+Male<input type="radio" name="gender">
+female<input type="radio" name="gender"><br>
+<label id="p2">categry</label>
+Genrel<input type="radio" name="gender">
+sc<input type="radio" name="gender"><br><br>
+</form>
+</div>
+</div></div></div></div>
+
+{% endblock %}

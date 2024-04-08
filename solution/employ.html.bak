@@ -1,0 +1,15 @@
+{% extend 'base.html}
+{% load static %}
+{% block content %}
+
+{% for smp.name}}
+<h3>{{smp.name}}</h3>
+<h3>{smp.salary}}</h3>
+{% endfor %}
+
+{% for showvideo in b %}
+<iframe src="{{showvideo.image}}"></iframe>
+<iframe src="{{showvideo.image}}"></iframe>
+{% endfor %}
+
+{% endblock %}

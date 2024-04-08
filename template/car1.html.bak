@@ -1,0 +1,23 @@
+ {% extends 'base.html'%}
+{% load static %}
+{% block content %} 
+<div class="row">
+<h1> Fill Our Detail</h1></div><br>
+
+<div class="row">
+<div class="col-md-5 offset-3">
+<div class="form-control">
+<form action="{% url 'car' %}" method='POST'>
+{% csrf_token %}
+
+<input type="text" class="form-control" placeholder="Company" id=" name"/><br>
+<input type="text" class="form-control" placeholder="model" id=" name"/><br>
+<input type="text" class="form-control" placeholder="color" id=" name"/><br>
+<input type="text" class="form-control" placeholder="registrationdate" id=" name"/><br>
+<input type="text" class="form-control" placeholder="number" id=" name"/><br><br>
+<input type="submit" class="btn btn-primary" value="Submit"/>
+
+</form></div>
+</div></div>
+
+{% endblock %}

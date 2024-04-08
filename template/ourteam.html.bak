@@ -1,0 +1,52 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+<div class="row text-center" id="mnp">
+<div class="col-md-12">
+</div>
+<h1 id="zp">Our Team</h1>
+</div>
+<div class="container-fluid" id="kl">
+<div class="row" id="ser">
+<div class="col-md-5 ms-5">
+<div data-aos="zoom-in-up">
+<img src="{% static 'image/8.jpg' %}"height="250px" width="80%" /></div>
+</div>
+<div class="col-md-5 me-5 rk">
+<h1 class="title">JOSE TRIGUERO</h1>
+<h4>Managing Director</h4>
+<p>jose has developed a successful career in Management Consulting for banks and insurers,leading
+multiple strategy, CRM and transformation projects in large multinational companies in Argentina,Chile,
+Colombia,Ecuador and Uruguay. He holds bachelor and master degrees in Finance.</p>
+</div>
+</div>
+
+<div class="row" id="ser">
+<div class="col-md-5 ms-5 p-3">
+<div data-aos="zoom-in-up">
+<img src="{% static 'image/7.jpg' %}"height="250px" width="80%" /></div>
+</div>
+<div class="col-md-5 me-5 rk">
+<h1>SEBASTIAN BORBA</h1>
+<h4>Managing Partner</h4>
+<p>Sebastian has more than 20 years of experience in insurance, including executive roles
+in key players in the region, like RSA, Marsh and BNP Paribas Cardif, as well as in consulting,
+having led Accenture's Insurance practice in South America. He holds a B.SC. in Business
+Management and a MA in Marketing.</p>
+</div>
+</div>
+
+<div class="row" id="ser">
+<div class="col-md-5 ms-5 p-3">
+<div data-aos="zoom-in-up">
+<img src="{% static 'image/6.jpg' %}"height="250px" width="80%" /></div>
+</div>
+<div class="col-md-5 me-5 rk">
+<h1>CHIEF INVESTMENTS OFFICER</h1>
+<h4>Mr. Saibal Ghosh</h4>
+<p>Mr. Saibal Ghosh is the Chief Investments Officer at Aegon Life Insurance Company Limited. Prior to joining Aegon Life Insurance Company Limited, Mr. Ghosh assumed the responsibility as Chief Investment Officer of Bajaj Allianz General Insurance Company Limited. Mr. Ghosh has over 20 years of experience in the capital markets starting his career as a Management Trainee with Sahara India financial…</p>
+</div>
+</div>
+</div>
+{% endblock %}

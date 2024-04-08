@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<body>
+<style>
+#healthform,#businessform,#lifeform{display:none;}
+</style>
+<script src="jquery.js"></script>
+<p>Modify the text in the input field, then click outside the field to fire the onchange event.</p>
+<div class="img" id="v1">
+<h1 class="model text-danger text-center"><b>Register</b></h1></div>
+<div class="row offset-3">
+<div class= "col-md-9" id="l1">
+
+<div class="form-group">
+<h1> Fill Our Detail</h1></div><br>
+
+<div class="form-control">
+<form action="{% url 'register' %}" method='POST'>
+{% csrf_token %}
+<div class="row">
+<div class="col-md-6">
+<input type="text" class="form-control" placeholder="First  name*" id=" name" name="fname"/> <br></div>
+<div class="col-md-6">
+
+<input type="text" class="form-control" placeholder="last  name*" id=" name" name="lname"/></div></div>
+
+
+<div class="row">
+<div class="col-md-6">
+<input type="text" class="form-control" placeholder="City*" id=" name" name="city"/>
+</div>
+
+
+<div class="col-md-6">
+<input type="text" class="form-control" placeholder="pin-code*" id=" name" name="pin"/></div></div><br>
+<div class="row">
+<div class="col-md-6">
+<input type="text" class="form-control" placeholder="phon-no*" id=" name" name="phon-no"/> <br></div>
+<div class="col-md-6">
+<input type="text" class="form-control" placeholder="state*" id=" name" name="state"></p>
+</div><div>
+
+<div class="row">
+<div class="col-md-8">
+<input type="text" class="form-control" placeholder="Adress*" id=" name" name="address"/> <br></div></div>
+<div class="row">
+<div class="col-md-8">
+<input type="text" class="form-control" placeholder="Adhar-no*" id=" name" name="adhar_no"/></div></div></p>
+<div class="row">
+<div class="col-md-8">
+<input type="text" class="form-control" placeholder="City*" id=" name" name="city"/> <br></div>
+</div>
+<div class="row"> 
+<div class="col-md-8">
+<input type="text" class="form-control" placeholder="email*" id=" name" name="email"></p>
+</div></div> 
+<label id="p2">Gender</label>
+Male<input type="radio" name="gender">
+female<input type="radio" name="gender"><br>
+<label id="p2">categry</label>
+Genrel<input type="radio" name="gender">
+sc<input type="radio" name="gender"><br><br>
+
+Enter some text: <select name="txt" id="insurancetype">
+<option>-Select Insuranfce Type-</option>
+<option>health</option>
+<option>business</option>
+<option>life</option>
+</select>
+</form>
+</div>
+</div></div></div></div>
+
+<div id="forms">
+<form id="healthform">
+
+<input type="text" class="form-control" placeholder="Location" id=" name"/>
+<input type="text" class="form-control" placeholder="Area" id=" name"/>
+<input type="text" class="form-control" placeholder="no of floor" id=" name"/><br><br>
+</form>
+<form id="businessform">
+<input type="text" placeholder="business name"/>
+
+<input type="text" class="form-control" placeholder="Business name" id=" name"/><br>
+<input type="text" class="form-control" placeholder="Type" id=" name"/><br>
+<input type="text" class="form-control" placeholder="Location" id=" name"/><br>
+<input type="text" class="form-control" placeholder="Area" id=" name"/><br>
+<input type="text" class="form-control" placeholder="Floor" id=" name"/><br><br>
+
+
+</form>
+<form id="lifeform">
+
+<input type="text" class="form-control" placeholder="Company" id=" name"/><br>
+<input type="text" class="form-control" placeholder="model" id=" name"/><br>
+<input type="text" class="form-control" placeholder="color" id=" name"/><br>
+<input type="text" class="form-control" placeholder="registrationdate" id=" name"/><br>
+<input type="text" class="form-control" placeholder="number" id=" name"/><br><br>
+
+
+
+
+</form>
+</div>
+<script>
+$(document).ready(function(){
+	$("#insurancetype").change(function(){
+	var type=$(this).val();
+	$("#forms form").hide();
+	$("#"+type+"form").show();
+	});
+});
+</script>
+
+</body>
+</html>

@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<div class="row" id="jjt">
+<div class="row offset-2 p-5" id="lp">
+<div class="col-md-12" id="lp">
+<div data-aos="flip-left">
+<img src="{% static 'image/27.jpg' %}"height="210px" width="50%" /><br>
+</div></div>
+<div class="col-md-6  text-centr offset-1 p-2" id="ps">
+<h1>{{ b1.title}}</h1><br>
+
+<p>{{b1.des}}</p>
+<p>{{b1.date}}</p><br>
+</div> </div> </div>
+{% endblock %}

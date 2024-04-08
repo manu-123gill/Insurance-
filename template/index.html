@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+
+
+{% for dept in c %}
+<h1>{{dept.name}}</h1>
+<a href="/b/{{dept.id}}">show employee</a>
+{% endfor%}

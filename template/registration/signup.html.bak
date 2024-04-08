@@ -1,0 +1,26 @@
+{% extends 'base.html'%}
+{% load static %}
+{% block content %}
+<div class="row p-5 text-center" id="top">
+<h2>Enter your Details</h2>
+<div class="col-md-8 p-5 offset-2 border mb-5">
+<form method="post">
+<div class="form-group">
+{% csrf_token %}
+
+{% for field in form %}
+{{ field.label_tag}}
+<br>
+
+{{field}}
+<br>
+{% for error  in field.errors %}
+<p style="color:red;">{{error}}</p>
+
+{% endfor %}
+{% endfor %}
+<input type="submit" class="btn btn-primary" value="SIGN UP"/>
+</form>
+</div>
+</div> </div>
+{% endblock %}

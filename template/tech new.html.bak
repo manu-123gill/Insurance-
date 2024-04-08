@@ -1,0 +1,318 @@
+ {% load static %}
+<html>
+<head>
+<title>
+insurance
+</title>
+<link href="{% static 'tech1.css' %}" type= "text/css" rel="stylesheet"/>
+<link href="{% static 'bootstrap/css/bootstrap.min.css' %}" type="text/css" rel="stylesheet"/>
+<link href="{% static 'bootstrap/css/bootstrap-grid.min.css' %}" type="text/css" rel="stylesheet"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<div class="container-fluid">
+<div class="mycontainer">
+<div class="row" id="heading1">
+<div class="row p-3 bg-dark"id="heading">
+<div class="col-md-3 ">
+<h1 id="licstyle"><i class="fa fa-umbrella" id="iconstyle"></i>lic</h1>
+</div>
+<div class="col-md-9" id="ms">
+<nav>
+<ul class="nav" >
+<li><a class="nav-link" href="#">Home</a></li>
+<li><a class="nav-link" href="/About/">About us</a></li>
+<li><a class="nav-link" href="/service/">Service</a></li>
+<li><a class="nav-link" href="#">Pricing</a></li>
+<li><a class="nav-link" href="/ourteam/">Our team</a></li>
+<li><a class="nav-link" href="#">Case study</a></li>
+<li><a class="nav-link" href="/car/">car</a></li>
+<li><a class="nav-link" href="#">Faq</a></li>
+<li><a class="nav-link" href="#">Contact</a></li>
+<li><a class="nav-link" href="/sign/">sign</a></li>
+<li><a class="nav-link" href="/login/">login</a></li>
+</ul>
+</nav>
+</div>
+</div></div>
+
+</body>
+<div class="row"  id="about">
+<div class="col-md-12 text-light">
+<h1 id="b1">Execute happiness with <br>life insurance.</h1></br>
+<h3 class="hh">reliable,Affordable insurance.leave your worries to us</h3>
+<input type="submit"class="btn btn-primary btn-lg" value="Contact us now">
+</div>
+</div>
+
+<div class="row" >
+<div class="col-md-12 bg-dark text-center text-light">
+
+<h1 class="a1">Our services</h1>
+<p class="a1">lorem ipsum dolor sit amet,consectetur adipiscing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua.</p>
+</div>
+</div>
+<div class="row p-4" id="manu">
+<div class="col-md-4">
+<div class="col-md-12 p-2 border" id="l">
+<h2 class="b2"><i class="fa fa-home"></i>Home insurance </h2>
+<p> lorem ipsum dolor sit amet,consectetur
+   adipiscing elit,sed do eiusmod tempor 
+   incididunt ut labore et dolore magna
+          aliqua </p></div>	
+		  </div>
+		  
+		  
+	<div class="col-md-4">
+	
+<div class="col-md-12 p-2 border" id="l">
+		  <h2 class="b2"><i class="fa fa-car"> Car insurance</i></h2>
+		  
+		  <p> lorem ipsum dolor sit amet,cnsectetur
+		    adipiscing elit,sed do eiusmod tempor
+			incididunt ut labore et dolore magna 
+			 alique</p></div></div>
+			 <div class="col-md-4">
+			 
+			<div class="col-md-12 p-2 border" id="l">
+			 <h2 class="b3"><i class="fa fa-truck"></i>Travel Insurance</h2>
+			 <p> lorem ipsum dolor sit amet,cnsectetur
+		    adipiscing elit,sed do eiusmod tempor
+			incididunt ut labore et dolore magna 
+			 alique</p></div></div></div>
+	
+<div class="row" id="manu">
+			   <div class="col-md-4">
+			   
+			   <div class="col-md-12 p-2 border" id="l">
+			   <h2 class="b3"><i class="fa fa-heart"></i>Health insurance </h2>
+			   <p>lorem ipsum dolor sit amet,consectetur
+			   adipiscing elit,sed do eiusmod tempor
+			   incididunt ut labore et dolore magna alique</p>
+			   </div></div>
+			   <div class="col-md-4">
+			   <div class="col-md-12 p-2 border"id="l">
+			   <h2 class="b4"><i class="fa fa-child"></i>Life insurance</h2>
+			   <p>Lorem ipsum dolor sit amet,consectetur
+			   adipiscing elit,sed do eiusmod tempor
+			   incididunt ut labore et dolore magna
+			   alique</p></div></div>
+			   <div class="col-md-4">
+			   <div class="col-md-12  p-2 border"id="l">
+			   <h2 class="b5"><i class="fa fa-phone"></i>Business insurance</h2>
+			   <p>lorem ipsum dolor sit amet, consectetur
+			   adipiscing elit,sed do eiusmod tempor 
+			   incididunt ut labore et dolore magna 
+			   alique </p></div></div></div>
+ <div class="row" id="manu">
+ <div class="col-md-3 m-3 p-4 border" id="z2">
+ <div class="col-md-12">
+ <h1  class="j5">24/7 Support<i class="fa fa-phone"></i></h1></div></div>
+ <div class="col-md-3 m-3 p-4 border" id="z2">
+ 
+ <div class="cd-md-12" id="mk">
+ <h2>Award Winner</h2>
+
+<i class="fa fa-star "></i>
+<p></div></div>
+ <div class="col-md-5 m-2">
+			   
+			   <h1>why choosen use</h1><p>lorem ipsum dolor sit amet consectetur 
+			   adipiscing elit,sed do eiusood tempor incididunt
+			   ut labore et dolore magna aliqua.Ut enim ad minim veniam
+			   quis nostrud exercitation ullamco laboris nisi ut aliquip
+			   ex ea commodo consequat Duis aute irure dolor in reprehenderit
+			   in voluptate velit ese cillum dolore eu fugiat nulla pariatur.
+			   Excepteur sint occaecat cupidatat non proident, sunt in  culpa qui 
+			   officia deserunt mollit anit id est laborum </p>
+			   <button class="btn btn-primary btn-lg">cntact us now</button></div>
+			   
+ 
+			   </div> 
+			   <div class="row">
+			   <div class="col-md-12 bg-dark text-light text-center" id="t">
+			   
+			   
+			   <h1 class="a">pricing</h1></div></div>
+			   <div class="row">
+			    <div class="col-md-4" id="t">
+			   <div class="col-md-12">
+			   <h1>Basic</h1>
+			  <div class="exad-pricing-table-subtitle">Best sutited for pesonal use</div>
+			   <span class="exad-pricing-table-Currency">$</span>
+			   <span class="exad-pricing-table-price">50</span>
+			   <span class="exad-pricing-table-currency-separator">/</span> 
+			   <span  class="exad-pricing-table-price-by">mo</span><button class="btn btn-primary btn-lg">GET STARTED</button>
+			   
+			   
+			 <br> <br>
+			   <ul>
+			   <li><a class="nav-link" href="#">Responsive live</a></li>
+			   <li><a class="nav-link" href="#">Adaptive</a></li>
+			  
+			   <li><a class="nav-link" href="#">Analytics</a></li>
+			   <li><a class="nav-link" href="#">Creative layouts</a></li>
+			   <li><a class="nav-link" href="#">free support</a></li></ul>
+			   </div></div>
+			  <div class="col-md-4" id="t">
+			   <div class="col-md-12 ">
+			   <h1>PREMIUM</h1>
+
+			   <div class="col-md-12">
+			   
+			   <div class="exad-pricing-table-subtitle">Best sutited for pesonal use</div>
+			   <span class="exad-pricing-table-Currency">$</span>
+			   <span class="exad-pricing-table-price">300</span>
+			   <span class="exad-pricing-table-currency-separator">/</span> 
+			   <span class="exad-pricing-table-price-by">mo</span> <button class="btn btn-primary btn-lg">GET STARTED</button>
+			   </div><br>
+				<ul>
+			   <li><a class="nav-link" href="#">Responsive live</a></li>
+			   <li><a class="nav-link" href="#">Adaptive</a></li>
+			  
+			   <li><a class="nav-link" href="#">Analytics</a></li>
+			   <li><a class="nav-link" href="#">Creative layouts</a></li>
+			   <li><a class="nav-link" href="#">free support</a></li></ul>
+			   </div>
+			   </div>
+			   <div class="col-md-4" id="t">
+			   <div class="col-md-12">
+			   <h1 class="s1">PROFESSIONAL</h1>
+			   <div class="col-md-12"><ul>
+			   <div class="exad-pricing-table-subtitle">All type of insurance</div>
+			   <span class="exad-pricing-table-Currency">$</span>
+			   <span class="exad-pricing-table-price">350</span><span class="exad-pricing-table-currency-separator">/</span> 
+			   
+			   <span class="exad-pricing-table-price-by">mo</span><button class="btn btn-primary btn-lg">GET STARTED</button>
+			   
+			   
+			  <br>
+			   <br> 
+			   <ul>
+			   <li><a class="nav-link" href="#">Responsive live</a></li>
+			   <li><a class="nav-link" href="#">Adaptive</a></li>
+			  
+			   <li><a class="nav-link" href="#">Analytics</a></li>
+			   <li><a class="nav-link" href="#">Creative layouts</a></li>
+			   <li><a class="nav-link" href="#">free support</a></li></ul>
+			   </div>
+			   </div>
+			   </div>
+			   </div>
+ <div class="row" id="g">
+			   <div class="col-md-12" id="g">
+			   
+			   <h1 class="b" p-5 >Our Team</h1>
+			   <p>Meet our team of expert business consultant</p></div></div>
+			    <div class="row" id="zoom">
+			   <div class="col-md-3" id="shadow">
+			   <div class="col-md-12 border zo">
+			   <img src="{% static 'image/a1.jpg' %}"height="300px" width="100%" />
+			   <h2>Rose Merry</h2>
+			   <p>Reserch consltant</p>
+			   </div></div>
+			   <div class="col-md-3"id="shadow">
+			   <div class="col-md-12 border zo">
+			    <img src="{% static 'image/a2.jpg' %}"height="300px" width="100%" />
+				<h2>Sarah tylor</h2>
+				<p>Research consltant</p>
+				</div></div>
+				
+				<div class="col-md-3"  id="shadow">
+				<div class="col-md-12 border zo">
+				<img src="{% static 'image/a4.jpg' %}"height="300px" width="100%" />
+				<h2>jonathon smith</h2>
+				<p>Research consltant</p>
+				</div></div>
+				<div class="col-md-3" id="shadow">
+				<div class="col-md-12 border zo">
+				<img src="{% static 'image/p4.jpeg' %}"height="300px" width="100%" />
+				<h2>Aikin ward</h2>
+				<p>Resarch consltant</p></div></div>
+				</div>
+				<div class="row p-5">
+				<div class="col-md-6 ">
+				<h1>case Studies</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+				sed do eiusmod tempor incididunt ut labore et dolore magna
+				aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+				ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+				Duis aute irure dolor in reprehenderit in voluptate velit
+				esse cillum dolore eu fugiat nulla pariatur. 
+				Excepteur sint occaecat cupidatat non proident, sunt in 
+				culpa qui officia deserunt mollit anim id est laborum</p>
+				   <button class="btn btn-primary btn-lg">Read more</button></div>
+				<div class= "col-md-5" zo>
+				<img src="{% static 'image/g1.webp' %}"height="300px" width="100%" /></div></div>
+              <div class="row">
+			  <div class="col-md-12" id="v">
+			  <h1> Are you ready to insure Yourself or business ? </h1>
+			  <button class="btn btn-primary btn-lg">Contact With Us </button>
+			  </div> 
+			 
+			
+			  
+			  
+			  </div>
+				<div class="row">
+				<div class= "col-md-12  border r">
+				<h1 class="s">FAQ</h1></div></div>
+				<div class="row">
+				<div class="col-md-4 border" id="p">
+				<h2> What is HTML ?</h2></div>
+				<div class="col-md-4 border" id="p" >
+				<h2> What is HTML ?</h2></div></div>
+				<div class="row" id="p">
+				<div class="col-md-4 border" id="p">
+				<h2>What is java script ?</h2></div>
+			<div class="col-md-4  border"id="p">
+			<h2>What is java script ?</h2></div></div>
+				<div class="row" id="p">
+				<div class="col-md-4 border" id="p">
+				<h2>what is PHP ?</h2></div>
+				<div class="col-md-4 border" id="p">
+				<h2>what is PHP ?</h2></div></div>
+				<div class="row" id="a1">
+<div class="col-md-5">
+<h1>Contact US</h1>
+<p>gmanpreetkaur90@gmail.com</p>
+<p>7973067672</p>
+<p>Give me call or drop by anytime, we endeavour to answer all
+enquiries with 24 hours on business days.</p>
+
+</div>
+
+ 
+<div class= "col-md-4">
+<form>
+<div class="form-group">
+<label for="name">First Name</label>
+<input type="text" class="form-control" placeholder="First  name" id=" name"/>
+
+	<label for="name">last Name </label>
+
+<input type="text" class="form-control" placeholder="First  name" id=" name"/>
+<label for="name">Enter email</label>
+
+
+<input type="email" class="form-control" placeholder="Enter email" id="email"/>
+<label for="name">Subject</label>
+
+
+<input type="Subject" class="form-control" placeholder="Subject" id="email"/>
+<label for="name">your message</label>
+
+
+<input type="your message" class="form-control" placeholder="your message" id="email"/><br>
+<input type="submit"class="btn btn-primary btn-lg" value="Submit Form">
+</div>
+
+</div>
+</div>
+</div>
+</div>
+
+</body>
+</html>
+

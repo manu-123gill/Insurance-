@@ -1,0 +1,12 @@
+ from django import forms
+ from dealing.models import*
+ 
+class customerform(form.ModelForm):
+	class Meta:
+		model=contact
+		field='_all_'
+
+class contactform(form.ModelForm):
+	class Meta:
+		model=contact
+		field='_all_'

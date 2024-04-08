@@ -1,0 +1,63 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}	
+
+<div class="row p-5 mt-5" id="AboutUs">
+<div class="col-md-6">
+<h1 class="display-4 title">About Us</h1>
+<p>We provide the best consulting services for businesses all 
+over the world and in every industry. Whether you are a new 
+startup or a large company looking to broaden your horizons, 
+our team of experts will help you make the right decisions for you.
+From helping you refine your supply chain management, enhance human 
+resource strategies, guiding you to choose the right corporate social 
+responsibilities and managing your public relations, we provide all services 
+to ensure the success of your business.</p>
+`	
+<a href="/contact/"><button class="btn btn-primary btn-lg">Contact Us Now</button></a>
+</div>
+<div class="col-md-6 p-4" id="n">
+
+<div data-aos="flip-right" "data-aos-duration="2800">
+<img src="{% static 'image/yy.jpeg' %}"height="250px" width="80%" /></div>
+
+</div>
+
+<div class="row" id="ab5">
+<div class="col-md-12">
+<section class="counts-section">
+ <h1 class="mx-auto d-table my-5 h21">Our Achievement</h1>
+ <div class="service text-white py-5">
+ 
+   <div class="container">
+ 
+   <div class="row text-dark">
+   
+   <div class="col-lg-3 col-6 text-center iconstyle">
+   
+   <i class="fa fa-heart"></i>
+   <h1 data-toggle="counterUp">142</h1>
+   <h5>Client</h5>
+   </div>
+   <div class="col-lg-3 col-6 text-center iconstyle">
+      <i class="fa fa-book"></i>
+   <h1 data-toggle="counterUp">455</h1>
+   <h5>Project</h5>
+   </div>     
+     
+  <div class="col-lg-3 col-6 text-center iconstyle">
+  <i class="fa fa-clock-o"></i>
+   <h1 data-toggle="counterUp">4,262</h1>
+   <h5>Hours of Support</h5>
+   </div>  
+ <div class="col-lg-3 col-6 text-center iconstyle">
+ <i class="fa fa-map-marker"></i><br>
+   <h1 data-toggle="counterUp">25</h1>
+   <h5>Hard work</h5>
+   </div>  
+</div></div></div></div>
+<div class="row p-4">
+ <iframe width="853" height="480" src="https://www.youtube.com/embed/02y9Ffhsl-g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+</div></div></div>
+{% endblock %}
+

@@ -1,0 +1,25 @@
+{% load static %}
+<html>
+<head>
+<title>Mouse Events</title>
+
+</head>
+<body>
+<p onmouseover="f(this)" onmouseout="g(this)">this is first para</p>
+
+</body>
+<script>
+function f(para)
+{
+para.style.color='red';
+para.style.fontsize='25px';
+}
+function g(para)
+{
+para.style.color='black';
+para.style.fontSize='15px'
+
+}
+</script>
+
+</html>

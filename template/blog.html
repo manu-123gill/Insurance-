@@ -1,0 +1,48 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}	
+<div class="row text-center" id="rest">
+<div class="col-md-12">
+</div>
+<h1>Blogs</h1>
+<p>Check out our latest news and blog posts</p>
+</div>
+
+
+<div class="row" id="or" >
+<div class="col-md-10 offset-1">
+<div class="row">
+{% for techblog in bl %}
+<div class="col-md-4 p-4">
+<div class="col-md-12 p-4 border">
+<div data-aos="flip-up">
+<img src="/media/{{ techblog.image }}"height="250px" width="95%"/></div>
+<h3 class="title">{{ techblog.title }}</h3>
+<P>{{ tchblog.date }}</p>
+<P>{{ techblog.des | truncatechars:200 }}</p>
+<a href="/blogdetail/{{ techblog.id }}">Read More...</a>
+</div>
+</div>
+
+
+{% endfor %}
+<div class="row p-5" id="b1">
+<div class="col-md-5 border offset-1">
+<h2 class="p-3">Find an agent now</h2>
+<img src="{% static 'image/ph.png' %}" />
+ <p>Telephone</p>
+<p>+(111) 65_458_856</p></div>
+
+<div class="col-md-5 border">
+<h2 class="p-3">Time Schedule</h2>
+<img src="{% static 'image/ph1.png' %}" />
+<p>Office Time</p>
+<p>Mon - Fri: 9:00 - 18:00</p></div>
+
+</div>
+
+</div>
+</div>
+
+
+{% endblock %}

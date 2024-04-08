@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+<div class="row mt-4">
+<div class="col-md-12 mt-4 "id="vvv">
+<h1>You have register first
+</h1>
+
+<br>
+<a href="/login1/">Login</a>
+<br><br><br>
+</div>
+</div>
+
+{% endblock %}

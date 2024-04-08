@@ -1,0 +1,31 @@
+				<div class= "col-md-5" zo>
+				<img src="{% static 'image/g1.webp' %}"height="300px" width="100%" /></div></div>
+              <div class="row">
+			  <div class="col-md-12" id="v">
+			  <h1> Are you ready to insure Yourself or business ? </h1>
+			  <button class="btn btn-primary btn-lg">Contact With Us </button>
+			  </div> 
+			 
+			
+			  
+			  
+			  </div>
+				<div class="row">
+				<div class= "col-md-12  border r">
+				<h1 class="s">FAQ</h1></div></div>
+				<div class="row">
+				<div class="col-md-4 border" id="p">
+				<h2> What is HTML ?</h2></div>
+				<div class="col-md-4 border" id="p" >
+				<h2> What is HTML ?</h2></div></div>
+				<div class="row" id="p">
+				<div class="col-md-4 border" id="p">
+				<h2>What is java script ?</h2></div>
+			<div class="col-md-4  border"id="p">
+			<h2>What is java script ?</h2></div></div>
+				<div class="row" id="p">
+				<div class="col-md-4 border" id="p">
+				<h2>what is PHP ?</h2></div>
+				<div class="col-md-4 border" id="p">
+				<h2>what is PHP ?</h2></div></div>
+				<div class="row" id="a1">
